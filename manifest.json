@@ -3,8 +3,13 @@
     "name": "Fast forward video",
     "version": "1.0",
 
+    "content_scripts": {
+        "script": ["script.js"],
+        "matches": "<all_urls>"
+    },
+
     "background": {
-        "service_worker": "script.js"
+        "service_worker": "background.js"
     },
 
     "action": {},

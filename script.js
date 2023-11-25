@@ -1,6 +1,4 @@
-chrome.action.onClicked.addListener(speedUpVideo);
-console.log(chrome);
-console.log(chrome.action);
+console.log("Running");
 
 function speedUpVideo() {
     console.log("Setting speed");
