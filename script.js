@@ -1,4 +1,4 @@
-console.log("Made content script");
+// When message is received from background.js, runs speedUpVideo
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     speedUpVideo();
 })
