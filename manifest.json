@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Fast forward video",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "matches": ["*://*.youtube.com/watch*"]
+        }
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {},
+
+    "permissions": ["activeTab"]
+}
