@@ -1,4 +1,4 @@
-// chrome.action.onClicked.addListener(speedUpVideo);
+chrome.action.onClicked.addListener(speedUpVideo);
 console.log(chrome);
 console.log(chrome.action);
 
